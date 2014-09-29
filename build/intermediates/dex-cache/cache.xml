@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Julio\Documents\Android_Studio_Projects\Samples_Android\NetworkConnect\NetworkConnectSample\build\intermediates\pre-dexed\debug\classes-e7693c21c7e0e9113457b529ff86bb04f64895d6.jar"
+        jar="C:\Users\Julio\Documents\Android_Studio_Projects\Samples_Android\NetworkConnect\NetworkConnectSample\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="af4cc326e6cd92f88db12298767e521743aedd36"/>
+    <item
+        dex="C:\Users\Julio\Documents\Android_Studio_Projects\Samples_Android\NetworkConnect\NetworkConnectSample\build\intermediates\pre-dexed\debug\support-v4-19.1.0-16171cb7bd437044726981b63a518aa21c43a73b.jar"
+        jar="C:\Users\Julio\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
