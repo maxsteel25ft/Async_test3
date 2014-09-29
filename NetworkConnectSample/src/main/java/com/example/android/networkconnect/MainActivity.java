@@ -46,7 +46,7 @@ import java.net.URL;
  */
 /*
 *
-* Se leen los primeros 500 caracteres de un sitio web.
+* Se leen los primeros 700 caracteres de un sitio web.
 *
  * Aqui se demuestra el uso de poner una tarea en el background.
  * Esto se consigue empleando la API conocida como Asynctask.
@@ -94,7 +94,7 @@ public class MainActivity extends FragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             // When the user clicks FETCH, fetch the first 500 characters of
-            // raw HTML from www.google.com.
+            // raw HTML from www.emol.com.
             case R.id.fetch_action:
                 new DownloadTask().execute("http://www.emol.com");
                 return true;
@@ -138,7 +138,7 @@ public class MainActivity extends FragmentActivity {
 
         try {
             stream = downloadUrl(urlString);
-            str = readIt(stream, 500);
+            str = readIt(stream, 700);
        } finally {
            if (stream != null) {
                stream.close();
